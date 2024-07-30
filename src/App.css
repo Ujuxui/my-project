@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 .z-50-shared {
   @apply z-50;
 }
