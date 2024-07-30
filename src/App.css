@@ -1,0 +1,38 @@
+.z-50-shared {
+  @apply z-50;
+}
+
+
+.testimonial-card {
+  background-image: url('https://ik.imagekit.io/jkay012024/Screenshot%202024-07-30%20233041.png?updatedAt=1722362704294');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@keyframes scroll-left {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+@keyframes scroll-right {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(100%); }
+}
+
+
+.scroll-content-left {
+  animation: scroll-left 30s linear infinite;
+}
+
+.scroll-content-right {
+  animation: scroll-right 30s linear infinite;
+}
+
+.scroll-item {
+  border-radius: 2%;
+  flex-shrink: 0;
+  width: 450px;
+  height: 270px;
+  background-color: #ffff;
+  margin-right: 2rem;
+} 
